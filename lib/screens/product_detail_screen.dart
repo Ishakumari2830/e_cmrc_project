@@ -13,7 +13,7 @@ class ProductDetailScreen extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.network(product.imageUrl),
+            Image.asset(product.imageUrl),
             SizedBox(height: 10),
             Text(product.name, style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
             Text("\$${product.price}", style: TextStyle(fontSize: 18, color: Colors.green)),
